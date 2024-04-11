@@ -55,6 +55,7 @@ minetest.register_tool("rainbow_ore:rainbow_ore_pickaxe", {
 	},
 })
 
+toolranks.add_tool("rainbow_ore:rainbow_ore_pickaxe")
 
 local stick = minetest.settings:get("rainbow_ore.stick")
 if not stick then

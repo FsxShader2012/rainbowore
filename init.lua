@@ -92,6 +92,8 @@ minetest.register_tool("rainbow_ore:rainbow_ore_axe", {
 	}
 })
 
+-- Add toolrank support to tool
+toolranks.add_tool("rainbow_ore:rainbow_ore_axe")
 
 --Define Rainbow Axe crafting recipe
 minetest.register_craft({
@@ -128,6 +130,9 @@ minetest.register_tool("rainbow_ore:rainbow_ore_shovel", {
 	},
 })
 
+-- Add toolrank support to tool
+toolranks.add_tool("rainbow_ore:rainbow_ore_shovel")
+
 
 --Define Rainbow shovel crafting recipe
 minetest.register_craft({
@@ -154,6 +159,8 @@ minetest.register_tool("rainbow_ore:rainbow_ore_sword", {
 	}
 })
 
+-- Add toolrank support to tool
+toolranks.add_tool("rainbow_ore:rainbow_ore_sword")
 
 --Define Rainbow sword crafting recipe
 minetest.register_craft({

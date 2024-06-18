@@ -127,6 +127,7 @@ minetest.register_tool("rainbow_ore:rainbow_ore_shovel", {
 })
 
 
+
 --Define Rainbow shovel crafting recipe
 minetest.register_craft({
 	output = "rainbow_ore:rainbow_ore_shovel",
@@ -151,7 +152,6 @@ minetest.register_tool("rainbow_ore:rainbow_ore_sword", {
 		damage_groups = {fleshy=8},
 	}
 })
-
 
 --Define Rainbow sword crafting recipe
 minetest.register_craft({
